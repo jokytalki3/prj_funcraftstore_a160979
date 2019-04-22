@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prj_funcraftstore_a160979", "prj_funcraftstore_a160979\prj_funcraftstore_a160979.vbproj", "{C11E03E4-F20E-404D-B4E5-92170623C704}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_FunCraft_Store", "Setup_FunCraft_Store\Setup_FunCraft_Store.vdproj", "{AFCFC7CD-D659-4AF4-B40E-643C4311889D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C11E03E4-F20E-404D-B4E5-92170623C704}.Debug|x86.ActiveCfg = Debug|x86
+		{C11E03E4-F20E-404D-B4E5-92170623C704}.Debug|x86.Build.0 = Debug|x86
+		{C11E03E4-F20E-404D-B4E5-92170623C704}.Release|x86.ActiveCfg = Release|x86
+		{C11E03E4-F20E-404D-B4E5-92170623C704}.Release|x86.Build.0 = Release|x86
+		{AFCFC7CD-D659-4AF4-B40E-643C4311889D}.Debug|x86.ActiveCfg = Debug
+		{AFCFC7CD-D659-4AF4-B40E-643C4311889D}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

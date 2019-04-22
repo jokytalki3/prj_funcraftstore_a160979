@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C11E03E4-F20E-404D-B4E5-92170623C704}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>prj_funcraftstore_a160979.My.MyApplication</StartupObject>
+    <RootNamespace>prj_funcraftstore_a160979</RootNamespace>
+    <AssemblyName>prj_funcraftstore_a160979</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>prj_funcraftstore_a160979.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>prj_funcraftstore_a160979.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_customer.Designer.vb">
+      <DependentUpon>frm_customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insert_customer.Designer.vb">
+      <DependentUpon>frm_insert_customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insert_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insert_products.Designer.vb">
+      <DependentUpon>frm_insert_products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insert_products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insert_staff.Designer.vb">
+      <DependentUpon>frm_insert_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insert_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mainmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mainmenu.Designer.vb">
+      <DependentUpon>frm_mainmenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_make_order.Designer.vb">
+      <DependentUpon>frm_make_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_make_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_orderlist.Designer.vb">
+      <DependentUpon>frm_orderlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_orderlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_orders.Designer.vb">
+      <DependentUpon>frm_orders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_orders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_products.Designer.vb">
+      <DependentUpon>frm_products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_product_views.Designer.vb">
+      <DependentUpon>frm_product_views.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_product_views.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_splashscreen_a160979.Designer.vb">
+      <DependentUpon>frm_splashscreen_a160979.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_splashscreen_a160979.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_staff.Designer.vb">
+      <DependentUpon>frm_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_update_customer.Designer.vb">
+      <DependentUpon>frm_update_customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_update_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_update_products.Designer.vb">
+      <DependentUpon>frm_update_products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_update_products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_update_staff.Designer.vb">
+      <DependentUpon>frm_update_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_update_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_view_orders.Designer.vb">
+      <DependentUpon>frm_view_orders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_view_orders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="universal modul.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_customer.resx">
+      <DependentUpon>frm_customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insert_customer.resx">
+      <DependentUpon>frm_insert_customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insert_products.resx">
+      <DependentUpon>frm_insert_products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insert_staff.resx">
+      <DependentUpon>frm_insert_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_mainmenu.resx">
+      <DependentUpon>frm_mainmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_make_order.resx">
+      <DependentUpon>frm_make_order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_orderlist.resx">
+      <DependentUpon>frm_orderlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_orders.resx">
+      <DependentUpon>frm_orders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_products.resx">
+      <DependentUpon>frm_products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_product_views.resx">
+      <DependentUpon>frm_product_views.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_splashscreen_a160979.resx">
+      <DependentUpon>frm_splashscreen_a160979.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_staff.resx">
+      <DependentUpon>frm_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_update_customer.resx">
+      <DependentUpon>frm_update_customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_update_products.resx">
+      <DependentUpon>frm_update_products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_update_staff.resx">
+      <DependentUpon>frm_update_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_view_orders.resx">
+      <DependentUpon>frm_view_orders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Free-Download-Background-Images-For-Website-Design-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11WhnTT.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
